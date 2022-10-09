@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      crossorigin="anonymous"
+    />
+    
+    <title>{% block title %}Home{% endblock %}</title>
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbar">
+            <div class="navbar-nav">
+              
+              <a class="nav-item nav-link" id="home" href="/">Home</a>
+              <a class="nav-item nav-link" id="topic1" href= "/topic1">topic1</a>
+             
+              <a class="nav-item nav-link" id="topic2" href="/topic2">topic2</a>
+              <a class="nav-item nav-link" id="topic3" href="/topic3">topic3</a>
+              <a class="nav-item nav-link" id="topic4" href="/topic4">topic4</a>
+              
+            </div>
+          </div>
+      </nav>
+      <center>
+        <h1> NETWORK ANALYSIS  </h1> </center>
+      <center>
+      <h2> Welcome Home </h2>
+      </center>
+
+      <style type="text/css">
+       
+        body {
+          background-image: url_for("medi_logo.png");
+          background-repeat: no-repeat, repeat;
+          
+        }
+        
+        
+      
+        .circle{
+          
+            box-sizing: border-box;
+            border-radius: 50%
+          
+          
+        }
+
+        .circle a{
+          position:absolute;
+          top:20%; left:10%;
+          transform: translate(10%, 10%);
+          
+          padding: 50px;
+          background-color: yellow;
+          transition: transform .6s; /* Animation */
+          width: 150px;
+          height: 150px;
+          margin: 100px;
+        }
+        
+        .circle:hover {
+          
+          transform: scale(1.1); 
+        }
+
+        .circle_2{
+          
+          box-sizing: border-box;
+          border-radius: 50%      
+      }
+
+      .circle_2 a{
+        position:absolute;
+        top:20%; left:25%;
+        transform: translate(10%, 11%);
+        
+        padding: 50px;
+        background-color: yellow;
+        transition: transform .6s; /* Animation */
+        width: 150px;
+        height: 150px;
+        margin: 100px; 
+      }
+       
+      .circle_2:hover {
+        transform: scale(1.1); 
+      }
+
+      
+      .circle_3{
+          
+        box-sizing: border-box;
+        border-radius: 50%      
+    }
+
+    .circle_3 a{
+      position:absolute;
+      top:20%; left:40%;
+      transform: translate(10%, 11%);
+      
+      padding: 50px;
+      background-color: yellow;
+      transition: transform .6s; /* Animation */
+      width: 150px;
+      height: 150px;
+      margin: 100px; 
+    }
+     
+    .circle_3:hover {
+      transform: scale(1.1); 
+    }
+
+    
+    .circle_4{
+          
+      box-sizing: border-box;
+      border-radius: 50%      
+  }
+
+  .circle_4 a{
+    position:absolute;
+    top:20%; left:55%;
+    transform: translate(10%, 11%);
+    
+    padding: 50px;
+    background-color: yellow;
+    transition: transform .6s; /* Animation */
+    width: 150px;
+    height: 150px;
+    margin: 100px; 
+  }
+   
+  .circle_4:hover {
+    transform: scale(1.1); 
+  }
+    </style>
+
+    <div class="hero-image">
+      
+    </div>
+
+    <div  class="circle" id= "circle">
+      <a class= "circle " id="topic1" href= "/topic1">Topic1</a>
+    </div>
+
+    <div  class="circle_2" id= "circle_2">
+      <a class= "circle_2 " id="topic2" href= "/topic2">Topic2</a>
+    </div>
+
+    <div  class="circle_3" id= "circle_3">
+      <a class= "circle_3 " id="topic3" href= "/topic3">Topic3</a>
+    </div>
+
+    <div  class="circle_4" id= "circle_4">
+      <a class= "circle_4 " id="topic4" href= "/topic4">Topic4</a>
+    </div>
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"
+  ></script>
+
+</body>
+</html>

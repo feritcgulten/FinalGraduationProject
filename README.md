@@ -1,4 +1,4 @@
-[FinalProjectReport_63160009_61160005_61160012 (1).pdf](https://github.com/doubleengineer/FinalGraduationProject/files/9741852/FinalProjectReport_63160009_61160005_61160012.1.pdf)
+
 
 In today's world, social media platforms have a significant potential impact on
 individuals in various areas and issues. Twitter is one of these social media
@@ -17,6 +17,7 @@ healthcare trending topics and influential people. The proposed method includes
 the n-grams algorithm to identify trending topics and social network analysis to
 identify influencers. In addition, with an interface design, it is aimed to display trend
 topics and influential people for the desired time interval.
+                                Just a little representation of N-gram representation with Data
 ![gr](https://github.com/feritcgulten/FinalGraduationProject/assets/14100704/0ae5b04b-f2a2-4cac-bd0d-a62f3e43a44f)
-
+                                Just a little representation of Network Analysis with gathered data
 ![gr_2](https://github.com/feritcgulten/FinalGraduationProject/assets/14100704/9e56f6aa-fc5e-4312-9ef0-a2a289822f64)

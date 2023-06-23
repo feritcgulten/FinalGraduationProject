@@ -17,3 +17,6 @@ healthcare trending topics and influential people. The proposed method includes
 the n-grams algorithm to identify trending topics and social network analysis to
 identify influencers. In addition, with an interface design, it is aimed to display trend
 topics and influential people for the desired time interval.
+![gr](https://github.com/feritcgulten/FinalGraduationProject/assets/14100704/0ae5b04b-f2a2-4cac-bd0d-a62f3e43a44f)
+
+![gr_2](https://github.com/feritcgulten/FinalGraduationProject/assets/14100704/9e56f6aa-fc5e-4312-9ef0-a2a289822f64)
